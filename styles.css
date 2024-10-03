@@ -53,7 +53,7 @@ body {
 }
 
 .card-back p {
-    font-size: 15px; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 5px; /* Tamaño del texto del mensaje (aumentado) */
 }
 
 .card.show-back .card-front {
@@ -72,7 +72,7 @@ body {
 }
 
 .birthday-message {
-    font-size: 0.5rem; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 25px; /* Tamaño del texto del mensaje (aumentado) */
     color: #ffdd59; /* Color del texto del mensaje */
     margin-top: 20px; /* Espacio superior */
     text-align: center; /* Centra el texto */
@@ -135,7 +135,7 @@ button:hover {
     }
 
     .birthday-message {
-        font-size: 150px; /* Reducimos el tamaño del mensaje */
+        font-size: 10px; /* Reducimos el tamaño del mensaje */
         line-height: 1.2;  /* Ajustamos el espaciado entre líneas para una mejor lectura */
     }
 
