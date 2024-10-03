@@ -117,9 +117,9 @@ button:hover {
 
     .card {
         width: 90%; /* Mantiene la carta centrada y ajustada al ancho del dispositivo */
-        max-width: 250px; /* Establece un límite máximo para la carta */
+        max-width: 350px; /* Establece un límite máximo para la carta */
         height: auto;
-        padding: 10px;
+        padding: 25px;
         margin: 0 auto; /* Centra la carta horizontalmente */
     }
 
