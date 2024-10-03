@@ -123,12 +123,6 @@ button:hover {
         margin: 0 auto; /* Centra la carta horizontalmente */
     }
 
-    .birthday-message {
-        font-size: 1.8rem; /* Reduce el tamaño del mensaje para que sea más legible en móviles */
-        line-height: 1.2; /* Ajusta el espaciado entre líneas para una mejor lectura */
-        padding: 10px; /* Espaciado interno */
-    }
-
     .bts-image {
         width: 85%; /* Ajusta el tamaño de la imagen */
         height: auto;
@@ -140,8 +134,12 @@ button:hover {
         margin-top: 10px; /* Espacio superior para los botones */
     }
 
+    .birthday-message {
+        font-size: 1.8rem; /* Reducimos el tamaño del mensaje */
+        line-height: 1.2;  /* Ajustamos el espaciado entre líneas para una mejor lectura */
+    }
+
     .heart-emoji {
-        font-size: 3rem; /* Reduce el tamaño del emoji de corazón */
-        margin-top: 15px; /* Añade un poco de espacio superior al emoji */
+        font-size: 3rem; /* Reducimos el tamaño del emoji */
     }
 }
