@@ -135,7 +135,7 @@ button:hover {
     }
 
     .birthday-message {
-        font-size: 10px; /* Reducimos el tamaño del mensaje */
+        font-size: 250px; /* Reducimos el tamaño del mensaje */
         line-height: 1.2;  /* Ajustamos el espaciado entre líneas para una mejor lectura */
     }
 
