@@ -117,9 +117,9 @@ button:hover {
 
     .card {
         width: 90%; /* Mantiene la carta centrada y ajustada al ancho del dispositivo */
-        max-width: 350px; /* Establece un límite máximo para la carta */
+        max-width: 250px; /* Establece un límite máximo para la carta */
         height: auto;
-        padding: 15px;
+        padding: 10px;
         margin: 0 auto; /* Centra la carta horizontalmente */
     }
 
@@ -129,17 +129,17 @@ button:hover {
     }
 
     button {
-        font-size: 0.9rem; /* Reduce un poco más el tamaño de los botones */
+        font-size: 0.5rem; /* Reduce un poco más el tamaño de los botones */
         padding: 8px 12px;
-        margin-top: 10px; /* Espacio superior para los botones */
+        margin-top: 25px; /* Espacio superior para los botones */
     }
 
     .birthday-message {
-        font-size: 1.8rem; /* Reducimos el tamaño del mensaje */
+        font-size: 1rem; /* Reducimos el tamaño del mensaje */
         line-height: 1.2;  /* Ajustamos el espaciado entre líneas para una mejor lectura */
     }
 
     .heart-emoji {
-        font-size: 3rem; /* Reducimos el tamaño del emoji */
+        font-size: 0.5rem; /* Reducimos el tamaño del emoji */
     }
 }
