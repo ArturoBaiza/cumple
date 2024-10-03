@@ -53,7 +53,7 @@ body {
 }
 
 .card-back p {
-    font-size: 56px; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 15px; /* Tamaño del texto del mensaje (aumentado) */
 }
 
 .card.show-back .card-front {
