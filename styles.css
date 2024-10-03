@@ -108,26 +108,30 @@ button:hover {
 /* Media Queries para hacer la página responsive */
 @media (max-width: 600px) {
     .card {
-        width: 70%; /* Reducir el ancho de la carta a un 70% en móviles */
+        width: 90%; /* Ajustamos la carta para que ocupe el 90% del ancho de la pantalla */
+        max-width: 400px; /* Establecemos un ancho máximo para que no se agrande demasiado en tablets pequeñas */
         height: auto; /* Mantener la altura automática */
-        padding: 10px;
+        padding: 20px; /* Añadimos un poco más de espacio interno */
+        margin: 20px; /* Añadimos un margen alrededor para que no se pegue a los bordes */
     }
 
     .birthday-message {
-        font-size: 5rem; /* Reducir el tamaño del texto */
+        font-size: 2.5rem; /* Reducir el tamaño del texto en móviles */
     }
 
     .bts-image {
-        width: 80%; /* Hacer que la imagen sea más pequeña */
+        width: 90%; /* Reducimos la imagen para que se ajuste mejor en móviles */
+        height: auto; /* Mantiene la proporción */
+        margin-top: 10px; /* Espacio entre el título y la imagen */
     }
 
     button {
-        font-size: 0.8rem; /* Hacer los botones más pequeños */
-        padding: 6px 12px;
-        border-radius: 8px;
+        font-size: 1rem; /* Ajustamos el tamaño de los botones */
+        padding: 10px 15px; /* Aumentamos ligeramente el padding */
+        border-radius: 8px; /* Bordes redondeados */
     }
 
     .heart-emoji {
-        font-size: 6rem; /* Ajustar el tamaño del emoji */
+        font-size: 4rem; /* Ajustamos el tamaño del emoji de corazón */
     }
 }
