@@ -117,11 +117,12 @@ button:hover {
     }
 
     button {
-        font-size: 1rem; /* Tamaño de fuente de los botones */
-        padding: 8px 15px; /* Ajusta el padding de los botones */
+        font-size: 0.8rem; /* Tamaño de fuente más pequeño para los botones */
+        padding: 6px 12px; /* Padding más pequeño para los botones */
+        border-radius: 8px; /* Bordes un poco más pequeños */
     }
 
     .heart-emoji {
-        font-size: 20px; /* Tamaño del emoji de corazón */
+        font-size: 8rem; /* Ajusta el tamaño del emoji de corazón */
     }
 }
