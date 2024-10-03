@@ -135,11 +135,11 @@ button:hover {
     }
 
     .birthday-message {
-        font-size: 1rem; /* Reducimos el tamaño del mensaje */
+        font-size: 0.9rem; /* Reducimos el tamaño del mensaje */
         line-height: 1.2;  /* Ajustamos el espaciado entre líneas para una mejor lectura */
     }
 
     .heart-emoji {
-        font-size: 0.5rem; /* Reducimos el tamaño del emoji */
+        font-size: 0.9rem; /* Reducimos el tamaño del emoji */
     }
 }
