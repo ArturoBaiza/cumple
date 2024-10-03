@@ -53,7 +53,7 @@ body {
 }
 
 .card-back p {
-    font-size: 25.5px; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 56px; /* Tamaño del texto del mensaje (aumentado) */
 }
 
 .card.show-back .card-front {
@@ -84,7 +84,7 @@ body {
 }
 
 .heart-emoji {
-    font-size: 25px; /* Tamaño del emoji de corazón (aumentado) */
+    font-size: 10rem; /* Tamaño del emoji de corazón (aumentado) */
     margin-top: 30px; /* Espacio superior para el emoji */
 }
 
