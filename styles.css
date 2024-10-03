@@ -53,7 +53,7 @@ body {
 }
 
 .card-back p {
-    font-size: 250px; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 56px; /* Tamaño del texto del mensaje (aumentado) */
 }
 
 .card.show-back .card-front {
@@ -72,7 +72,7 @@ body {
 }
 
 .birthday-message {
-    font-size: 250px; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 40.5rem; /* Tamaño del texto del mensaje (aumentado) */
     color: #ffdd59; /* Color del texto del mensaje */
     margin-top: 20px; /* Espacio superior */
     text-align: center; /* Centra el texto */
@@ -107,38 +107,24 @@ button:hover {
 
 /* Media Queries para hacer la página responsive */
 @media (max-width: 600px) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh; /* Asegura que la carta esté centrada verticalmente en la pantalla */
-        padding: 0 10px; /* Añade un poco de espacio a los lados para que no quede pegada al borde */
-    }
-
     .card {
-        width: 90%; /* Mantiene la carta centrada y ajustada al ancho del dispositivo */
-        max-width: 350px; /* Establece un límite máximo para la carta */
-        height: auto;
-        padding: 25px;
-        margin: 0 auto; /* Centra la carta horizontalmente */
-    }
-
-    .bts-image {
-        width: 85%; /* Ajusta el tamaño de la imagen */
-        height: auto;
-    }
-
-    button {
-        font-size: 0.5rem; /* Reduce un poco más el tamaño de los botones */
-        padding: 8px 12px;
-        margin-top: 25px; /* Espacio superior para los botones */
+        width: 90%; /* Ajusta el ancho de la carta a un 90% */
+        height: auto; /* Altura automática para mejor ajuste */
     }
 
     .birthday-message {
-        font-size: 100px; /* Reducimos el tamaño del mensaje */
-        line-height: 1.2;  /* Ajustamos el espaciado entre líneas para una mejor lectura */
+        font-size: 10rem; /* Ajusta el tamaño del mensaje */
     }
 
+    button {
+        font-size: 1rem; /* Tamaño de fuente de los botones */
+        padding: 8px 15px; /* Ajusta el padding de los botones */
+    }
+
+    .heart-emoji {
+        font-size: 20px; /* Tamaño del emoji de corazón */
+    }
+}
     .heart-emoji {
         font-size: 0.9rem; /* Reducimos el tamaño del emoji */
     }
