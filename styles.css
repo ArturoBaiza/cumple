@@ -108,12 +108,13 @@ button:hover {
 /* Media Queries para hacer la página responsive */
 @media (max-width: 600px) {
     .card {
-        width: 90%; /* Ajusta el ancho de la carta a un 90% */
-        height: auto; /* Altura automática para mejor ajuste */
+        width: 80%; /* Reduce el ancho de la carta */
+        height: auto; /* Mantiene la altura automática */
+        padding: 10px; /* Añade un poco de padding para que el contenido no quede pegado a los bordes */
     }
 
     .birthday-message {
-        font-size: 10rem; /* Ajusta el tamaño del mensaje */
+        font-size: 8rem; /* Reduce aún más el tamaño del mensaje */
     }
 
     button {
