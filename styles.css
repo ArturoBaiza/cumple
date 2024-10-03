@@ -72,7 +72,7 @@ body {
 }
 
 .birthday-message {
-    font-size: 40.5rem; /* Tamaño del texto del mensaje (aumentado) */
+    font-size: 10rem; /* Tamaño del texto del mensaje (aumentado) */
     color: #ffdd59; /* Color del texto del mensaje */
     margin-top: 20px; /* Espacio superior */
     text-align: center; /* Centra el texto */
